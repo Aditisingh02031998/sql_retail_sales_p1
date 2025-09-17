@@ -84,11 +84,13 @@ Select Count(*) from retail_sales;
 -- Data Exploration
 
 -- how many sales we have?
+``` sql
 Select count(total_sale) as total_sales from retail_sales;
-
+```
 -- how many unique customer we have
+```sql
 select count(distinct customer_id) from retail_sales;
-
+```
 
 ### 3. Data Analysis & Findings
 
